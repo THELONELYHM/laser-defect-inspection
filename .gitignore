@@ -1,0 +1,24 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.idea/
+.vscode/
+
+# Generated datasets, weights and reports
+datasets/downloads/
+datasets/raw/
+datasets/neu_det/images/
+datasets/neu_det/labels/
+datasets/neu_det/dataset.yaml
+datasets/**/*.cache
+models/*.pt
+models/*.onnx
+/*.pt
+outputs/*
+!outputs/.gitkeep
+build/
+cpp/build/
+*.exe
+*.dll
+*.pdb

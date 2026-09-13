@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "laser-defect-inspection"
+version = "1.0.0"
+description = "Industrial surface defect inspection with YOLO and OpenCV"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "numpy>=1.26,<2",
+  "opencv-python>=4.8,<5",
+  "onnx>=1.16,<1.18",
+  "PyYAML>=6.0,<7",
+  "ultralytics>=8.3,<9",
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

@@ -1,0 +1,44 @@
+{
+  "source": "NEU-DET",
+  "input_directory": "datasets/raw/neu_det",
+  "seed": 42,
+  "ratios": {
+    "train": 0.7,
+    "val": 0.15,
+    "test": 0.15
+  },
+  "images": {
+    "train": 1260,
+    "val": 270,
+    "test": 270
+  },
+  "objects_per_class": {
+    "crazing": 688,
+    "inclusion": 1010,
+    "patches": 880,
+    "pitted_surface": 432,
+    "rolled-in_scale": 628,
+    "scratches": 548
+  },
+  "images_per_split_and_class": {
+    "test/crazing": 45,
+    "test/inclusion": 45,
+    "test/patches": 45,
+    "test/pitted_surface": 45,
+    "test/rolled-in_scale": 45,
+    "test/scratches": 45,
+    "train/crazing": 210,
+    "train/inclusion": 210,
+    "train/patches": 210,
+    "train/pitted_surface": 210,
+    "train/rolled-in_scale": 210,
+    "train/scratches": 210,
+    "val/crazing": 45,
+    "val/inclusion": 45,
+    "val/patches": 45,
+    "val/pitted_surface": 45,
+    "val/rolled-in_scale": 45,
+    "val/scratches": 45
+  },
+  "missing_images": []
+}
